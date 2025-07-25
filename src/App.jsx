@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 
 export default function App() {
   return (
-    <HashRouter>
+  <HashRouter>
       <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -19,6 +19,6 @@ export default function App() {
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
-    </HashRouter>
+  </HashRouter>
   );
 }
